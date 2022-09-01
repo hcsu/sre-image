@@ -19,3 +19,4 @@ RUN apt-get -y install mysql-client
 RUN apt-get -y install telnet
 
 RUN apt-get -y install vim
+RUN apt-get -y install less
