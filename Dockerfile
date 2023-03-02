@@ -14,3 +14,8 @@ RUN apt-get -y install \
   postgresql-client \
   default-mysql-client \
   redis-tools
+
+# RUN curl "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-413.0.0-linux-x86_64.tar.gz" -o "gcpcli.tar.gz" \
+#   && tar xvzf gcpcli.tar.gz \
+#   && ./google-cloud-sdk/install.sh -q
+# ENV PATH $PATH:/google-cloud-sdk/bin
